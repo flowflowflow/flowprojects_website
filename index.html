@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Florians Website</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Flow</h2>
+            <div class="toggle"></div>
+        </header>
+        
+        <video src="media/space2.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>Flowflow</h2>
+            <h3>Hallo test</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo mollitia quibusdam et tempora ea quaerat vero? Praesentium, tempore. Fuga, nisi!  
+            </p>
+            <a href="#">Explore</a>
+        </div>
+        <ul class="social">
+            <li> <p> My socials:</p></li>
+            <!-- <li title="My Instagram"><a href="#"><img src="media/instagram.png" alt=""></a></li> -->
+            <li title="My Twitter"><a href="https://twitter.com/Fl0w21" target="_blank"><img src="media/twitter.png" alt=""></a></li>
+            <li title="My GitHub"><a href="https://github.com/flowflowflow" target="_blank"><img src="media/github.png" alt=""></a></li>
+        </ul>
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Erfahrung</a></li>
+            <li><a href="#">Technologien</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+    </div>
+
+    <script type="text/javascript">
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+    
+</body>
+</html>
