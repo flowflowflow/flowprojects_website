@@ -204,3 +204,31 @@
         font-size: 1.5em;
     }
 }
+
+@media(max-width: 400px) {
+    .showcase, .showcase header {
+        padding: 10px;
+    }
+
+    .text h2 {
+        font-size: 1.5em;
+    }
+
+    .text h3 {
+        font-size: 1em;
+    }
+
+
+    .text a {
+        display: inline-block;
+        font-size: 0.8em;
+        background: white;
+        padding: 5px 10px;
+        text-decoration: none;
+        color: #111;
+        margin-top: 2px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: 0.2s;
+    }
+}
